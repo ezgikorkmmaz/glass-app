@@ -1,0 +1,37 @@
+
+.all-page{
+    display: flex;
+    flex-direction: row;
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px;
+    .menu-part-one{
+        margin-bottom: 20px;
+    }
+    .menu-part-two{
+        display: flex;
+        margin-bottom: 20px;
+        .tel-say{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .calculate-btn{
+        width: 100%;
+        background-color: #0999ec;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            border-color: #042c35;
+            color: #042c35;
+        }
+    }
+}
+}
