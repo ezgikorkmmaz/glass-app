@@ -19,7 +19,9 @@ const FormPart = () => {
 	const calculateFunc = () =>{
 		const arr = Array.from({length: lineCount}, (_, index) => index + 1);
 		const finalFirst = arr.map((elem) => ((elem - 1) * (lowerLine - upperLine)) / (lineCount - 1));
-		const finalLast = finalFirst.map((elem) => parseInt(elem,10) + parseInt(lowerLine,10));
+		const finalLast = finalFirst.map((elem) => parseInt(elem,10) + parseInt(upperLine,10));
+		finalLast[0] = Number(upperLine);
+		finalLast[lineCount-1] = Number(lowerLine);
 		const resultTableVal = finalLast.map((elem) => elem /100);
 		setArrayVal(resultTableVal);
 		const sumAll = finalLast.reduce((partialSum, a) => partialSum + a, 0);
