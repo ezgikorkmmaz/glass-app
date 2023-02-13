@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/glass-app/static/css/main.5712f208.css",
+    "main.js": "/glass-app/static/js/main.47f65f30.js",
+    "static/js/787.d6b5952e.chunk.js": "/glass-app/static/js/787.d6b5952e.chunk.js",
+    "index.html": "/glass-app/index.html",
+    "main.5712f208.css.map": "/glass-app/static/css/main.5712f208.css.map",
+    "main.47f65f30.js.map": "/glass-app/static/js/main.47f65f30.js.map",
+    "787.d6b5952e.chunk.js.map": "/glass-app/static/js/787.d6b5952e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5712f208.css",
+    "static/js/main.47f65f30.js"
+  ]
+}
